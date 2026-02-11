@@ -1,0 +1,14 @@
+#pragma once
+
+#define MANUFACTURER EMJE_TECH
+#define PRODUCT Sofle_RP2040_CE
+
+#define MATRIX_ROWS 10
+#define MATRIX_COLS 6
+
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
+
+/* Split */
+#define USE_SERIAL
+#define SERIAL_USART_FULL_DUPLEX
+#define SPLIT_USB_DETECT

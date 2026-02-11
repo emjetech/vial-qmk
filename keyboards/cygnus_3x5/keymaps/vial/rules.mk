@@ -1,12 +1,12 @@
 VIA_ENABLE          = yes
 VIAL_ENABLE         = yes
-LTO_ENABLE          = yes
-VIAL_INSECURE 		= yes
+LTO_ENABLE          = no
 
-RGBLIGHT_ENABLE     = yes
+RGBLIGHT_ENABLE     = no
 RGB_MATRIX_ENABLE   = no # Can't have RGBLIGHT and RGB_MATRIX at the same time.
 MOUSEKEY_ENABLE     = yes
-OLED_ENABLE         = yes
+OLED_ENABLE         = no
+OLED_DRIVER         = SSD1306
 EXTRAKEY_ENABLE     = yes
 COMBO_ENABLE        = yes
 
@@ -15,9 +15,6 @@ QMK_SETTINGS        = yes
 CAPS_WORD_ENABLE = no
 LAYER_LOCK_ENABLE = no
 REPEAT_KEY_ENABLE = no
-DYNAMIC_KEYMAP_ENABLE = yes
 
-TAP_DANCE_ENABLE = yes
-KEY_OVERRIDE_ENABLE = yes
-
+SERIAL_DRIVER = vendor
 CONVERT_TO = helios

@@ -1,0 +1,25 @@
+{
+  "keyboard_name": "Sofle RP2040 CE",
+  "manufacturer": "EMJE TECH",
+  "processor": "RP2040",
+  "bootloader": "rp2040",
+
+  "matrix_pins": {
+    "rows": ["GP0", "GP1", "GP2", "GP3", "GP4"],
+    "cols": ["GP5", "GP6", "GP7", "GP8", "GP9", "GP10"]
+  },
+
+  "diode_direction": "COL2ROW",
+
+  "usb": {
+    "vid": "0xFEED",
+    "pid": "0x6060",
+    "device_version": "1.0.0"
+  },
+
+  "layouts": {
+    "LAYOUT": {
+      "layout": []
+    }
+  }
+}
